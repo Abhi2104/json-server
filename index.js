@@ -1,12 +1,18 @@
-const jsonServer = require('json-server'); // importing json-server library
-const server = jsonServer.create();
-const router = jsonServer.router('db.json');
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 8080; //  chose port from here like 8080, 3001
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const router = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults()
 
-server.use(middlewares);
-server.use(router);
+server.use(middlewares)
+// Add this before server.use(router)
+server.use(jsonServer.rewriter({
+    '/*': '/$1',
+    '/product/:resource/:id/show': '/:resource/:id'
+}))
+server.use(router)
+server.listen(8080, () => {
+    console.log('JSON Server is running')
+})
 
-server.listen(port, ()=> {
-    console.log('JSON server running on '+port)
-});
+
+module.exports = server
