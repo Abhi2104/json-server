@@ -1,39 +1,5 @@
 {
-    "recipeData": [
-      {
-        "id": "1",
-        "title": "Panir Grilled Sandwitch",
-        "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq",
-        "ingridents": "potatoes,oil,water",
-        "recipe": "1.To cook the potatoes and peas in a stovetop pressure cooker. \n2. For the stovetop pressure cooker, remove the lid after all the pressure falls in the cooker."
-      },
-      {
-        "id": "2",
-        "title": "Cheese Pizza",
-        "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k",
-        "ingridents": "potatoes,oil,cheese,mionise,olive,abcd",
-        "recipe": "1.To cook the potatoes and peas in a stovetop pressure cooker. \n2. For the stovetop pressure cooker, remove the lid after all the pressure falls in the cooker.\n3.dhfahwfkawhdfiuahgdc"
-      },
-      {
-        "id": "3",
-        "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/xbeqlsck3p0kei53to7k",
-        "title": "Paneer Burger",
-        "ingridents": "potatoes,oil,water",
-        "recipe": "1.To cook the potatoes and peas in a stovetop pressure cooker. 2. For the stovetop pressure cooker, remove the lid after all the pressure falls in the cooker."
-      },
-      {
-        "id": "4",
-        "title": "Mathri Abhi",
-        "foodImg": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/mathri-recipe.jpg",
-        "ingridents": "2 cups wheat flour (atta)\n¼ cup besan (optional, refer notes)\n6 tablespoons semolina (fine rava)\n\n1 to 1¼ teaspoon salt (adjust to taste)\n1 teaspoon carom seeds (ajwain)\n1 tablespoon kasuri methi (dried fenugreek leaves)\n1 teaspoon onion seeds (kalonji, optional)\n1 teaspoon pepper (crushed)",
-        "recipe": "1. Add these ingredients to a large mixing bowl:\n2 cups of whole wheat flour,\n1/4 cup of besan (gram flour),\n6 tablespoons semolina (I used whole wheat fine rava)\n\n1 to 1¼ teaspoon salt"
-      },
-      {
-        "id": "5",
-        "foodImg": "https://static.toiimg.com/thumb/83740315.cms?width=1200&height=900",
-        "title": "sandwich",
-        "ingridents": "bread",
-        "recipe": "saggdthfhtfwhtfh\ngutygtytyt\ngygygygfy"
-      }
+    "recipeData": [      
+     
     ]
   }
